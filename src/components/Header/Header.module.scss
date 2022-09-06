@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.2rem;
+
+  &__heading {
+    font-size: 3rem;
+    color: #eef;
+    letter-spacing: 3px;
+  }
+
+  &__menu {
+    border: 1px solid #ffe;
+    padding: 1rem 4.8rem;
+  }
+
+  &__link {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
